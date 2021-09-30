@@ -9,10 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     <header class="header">
+     <header class="header"> 
+         <div class="container header-container">
         <nav class="header-navigation">
         <a href="" class="header-logo link">Web<span class="header-logo second link">Studio</span></a>
         <ul class="header-list list">
@@ -29,14 +33,18 @@
                 <a class="header-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
     </header>
     <main>
     <section class="hero">
+        <div class="container hero-container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="hero-btn btn">Заказать услугу</button>
+        </div>
     </section>
-    <section class="benefits">
-        <h2 class="benefits-title">Преимущества</h2>
+    <section class="benefits section">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <div class="container benefits-container">
         <ul class="benefits-list list">
             <li class="benefits-item">
                 <h3 class="benefits-second-title">Внимание к деталям</h3>
@@ -55,42 +63,56 @@
                 <p class="benefits-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
+        </div>
     </section>
-    <section class="works">
+    <section class="works section">
+        <div class="container works-container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="works-list list">
             <li class="works-item"><img src="./images/box1.jpg" alt="Рабочий стол" width="370" height="294"></li>
             <li class="works-item"><img src="./images/box2.jpg" alt="Экраны телефонов" width="370" height="294"></li>
             <li class="works-item"><img src="./images/box3.jpg" alt="Экран планшета" width="370" height="294"></li>
         </ul>
+        </div>
     </section>
-    <section class="team">
+    <section class="team section">
+        <div class="container team-container">
             <h2 class="title">Наша команда</h2>
             <ul class="team-list list">
                 <li class="team-item">
                     <img src="./images/man1.jpg" alt="Игорь" width="270" height="260">
+                    <div class="team-item-bottom">
                     <h3 class="team-title">Игорь Демьяненко</h3>
                     <p class="team-text" lang="en">Product Designer</p>
+                    </div>
                 </li>
                 <li class="team-item">
                     <img src="./images/man2.jpg" alt="Ольа" width="270" height="260">
+                    <div class="team-item-bottom">
                     <h3 class="team-title">Ольга Репина</h3>
                     <p class="team-text" lang="en">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="team-item">
                     <img src="./images/man3.jpg" alt="Николай" width="270" height="260">
+                    <div class="team-item-bottom">
                     <h3 class="team-title">Николай Тарасов</h3>
                     <p class="team-text" lang="en">Marketing</p>
+                    </div>
                 </li>
                 <li class="team-item">
                     <img src="./images/man4.jpg" alt="Михаил" width="270" height="260">
+                    <div class="team-item-bottom">
                     <h3 class="team-title">Михаил Ермаков</h3>
                     <p class="team-text" lang="en">UI Designer</p>
+                    </div>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container footer-container">
         <a href="" class="footer-logo link">Web<span class="footer-logo second-part link">Studio</span> </a>
         <address>
             <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
@@ -103,6 +125,7 @@
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
    
 </body>
